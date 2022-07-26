@@ -1,0 +1,30 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+.mainSugus{
+    background-image: linear-gradient(to right, #e66465, #9198e5);
+}
+.padreDivSugus{
+    @include centrar;
+}
+.fotoSugus{
+    @include fila2;
+    border-radius: 10px;
+    width: fit-content;
+}
+.rojo{
+    width: 35vw;
+    margin-right: $margingral;
+    border-radius: 10px;
+}
+.azul{
+    width: 35vw;
+    margin-left: $margingral;
+    border-radius: 10px;
+}
+.pSugus{
+    margin-top: $margingral*2;
+    font-size: 2vw;
+    font-style: italic;
+}

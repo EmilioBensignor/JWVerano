@@ -1,0 +1,182 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+/* Peulot del día */
+
+.padreDivPeulot{
+    @include centrar;
+    width: $width1;
+}
+.divPeulot{
+    @include centrar-columna;
+    width: $width2;
+    background-color: $color2;
+    box-shadow: 8px 8px 8px $color1;
+    border: $borde1;
+    border-radius: 10px;
+    margin: $margingral 0px $margingral*2 0px;
+    padding: $paddinggral;
+}
+.divList{
+    margin-bottom: $margingral*1.5;
+    @include evenly2;
+    .aPeu1{
+        text-decoration: none;
+        -webkit-text-stroke: 1px black;
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #74a7e4 !important;
+            &:hover{
+                color: #bbd5f9 !important;
+            }
+    }
+    .aPeu2{
+        text-decoration: none;
+        -webkit-text-stroke: 1px black;
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #74a7e4 !important;
+            &:hover{
+                color: #bbd5f9 !important;
+            }
+    }
+    .aPeu3{
+        text-decoration: none;
+        -webkit-text-stroke: 1px black;
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #74a7e4 !important;
+            &:hover{
+                color: #bbd5f9 !important;
+            }
+    }
+    .aPeu4{
+        text-decoration: none;
+        -webkit-text-stroke: 1px black;
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #74a7e4 !important;
+            &:hover{
+                color: #bbd5f9 !important;
+            }
+    }
+}
+.aGrales{
+    text-decoration: none;
+    -webkit-text-stroke: 1px black;
+    font-size: 3.5vw;
+    font-weight: 600;
+    color: #69cd68 !important;
+        &:hover{
+            color: #aeeca8 !important;
+        }
+}
+
+/* Cronograma */
+
+/* Tips de hoy */
+.h3Tipp{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.padreTipcolor{
+    @include centrar;
+}
+.tipcolor{
+    background-color: $color3;
+    border: $borde2;
+    border-radius: 10px;
+    width: $width7;
+    padding: $paddinggral;
+    margin: $margingral 0px $margingral*2 0px;
+}
+.ti{
+    font-style:oblique;
+    font-size: 1.2vw;
+}
+
+/* Progreso */
+
+.padreMajane{
+    @include centrar;
+    width: $width1;
+    margin: $margingral*1 0px $margingral 0px;
+}
+.majane{
+    @include centrar-columna;
+    width: $width2;
+    padding: $paddinggral;
+    background-color: $color3;
+    box-shadow: 4px 4px 4px $color2;
+    border: $borde1;
+    border-radius: 10px;
+}
+.progresoIndicadores{
+    @include columna;
+    .barraProgreso {
+        width: $width1;
+    }
+    .progress{
+        margin-bottom: $margingral*2;
+    }
+    .indicadores {
+        @include evenly-row;
+        div {
+            padding: $paddinggral;
+            background-color: $color1;
+            border: $borde3;
+            border-radius: 5px;
+            width: 6vw;
+            text-align: center;
+            font-size: 1.2vw;
+            }
+    }
+}
+
+/* Golosina */
+
+.h3Ayuda{
+    font-size: 1.5vw;
+    margin-top: $margingral*3;
+    padding-top: $paddinggral*2;
+    border-top: #FF8C6F dotted 4px;
+}
+.tyBoton{
+    @include golo;
+    margin: $margingral;
+}
+.pAyuda{
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.ayudas{
+    margin: 0px $margingral*2;
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: red;
+        }
+    }
+}
+
+/* Motivacional */
+/* Gral */
+.padreMotivacional{
+    @include centrar;
+    width: $width1;
+    margin-top: $margingral*2;
+    margin-bottom: $margingral;
+}
+.motivacional{
+    @include centrar;
+    width: $width2;
+}
+.moti{
+    width: 80vw;
+    border: $borde1;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px $color5;
+}

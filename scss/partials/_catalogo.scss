@@ -1,0 +1,58 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+/* Main */
+.listaCompras{
+    @include wrap;
+}
+.cartaCompra{
+    @include sb-align;
+    background-color: $color3;
+    width: $width9;
+    margin: $margingral;
+    overflow: hidden;
+    border: $borde1;
+    border-radius: 10px;
+}
+/* Items de la compra */
+.tituloCarta{
+    margin: $margingral*2 0px $margingral 0px;
+}
+.divFoto{
+    @include centrar;
+    width: $width6;
+    padding: $paddinggral*2;
+}
+.fotoCompra{
+    margin: $margingral;
+    height: 10vw;
+}
+
+/* Caramelos */
+.palito{
+    width: 15vw;
+    border-radius: 10px;
+}
+
+/* Wpp */
+
+.padreDivWpp{
+    @include centrar;
+}
+.divWpp{
+    background-color: $color3;
+    border: $borde1;
+    border-radius: 10px;
+    width: $width7;
+    margin: $margingral;
+    padding: $paddinggral;
+}
+.pWpp{
+    font-size: 1.5vw;
+    color: black;
+}
+.wpp{
+    background-color: #00bb2d;
+    border-radius: 100%;
+}

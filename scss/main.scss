@@ -1,0 +1,40 @@
+@import "./variables/variables";
+@import "sass2/extend";
+@import "sass2/mixin";
+@import "./partials/nav";
+@import "./partials/index";
+@import "./partials/h1";
+@import "./partials/footer";
+@import "./partials/cohadrajot";
+@import "./partials/java";
+@import "./partials/responsive";
+@import "./partials/sugus";
+@import "./partials/catalogo";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+body{
+    width: $width1;
+    @include columna;
+}
+
+/* Main */
+main{
+    @include main;
+    padding: $paddinggral;
+    background-image: linear-gradient(to bottom, $fondo, $color3, $color2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.theH1{
+    font-family: "Racing Sans One", cursive;
+    font-style: normal;
+    font-size: 9.5vw;
+    margin: $margingral 0px; 
+}
+.h2Gral{
+    font-size: 3vw;
+    margin-bottom: $margingral;
+}

@@ -1,0 +1,11 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixin";
+
+.elH1{
+    font-family: $fuente;
+    font-style: normal;
+    font-size: 8vw;
+    margin-top: $margingral;
+    margin-bottom: $margingral*2;
+}
