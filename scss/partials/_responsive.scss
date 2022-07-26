@@ -295,12 +295,14 @@
     }
     .parent{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         padding: $paddinggral*2;
+        width: $width2+5;
         div{
             border: $borde3;
             box-shadow: 3px 3px 3px $color2;
-            width: 15vw;
+            width: 20vw;
         }
     }
     .h2Div{
@@ -309,9 +311,14 @@
     }
     .imgDiv{
         width: 6vw !important;
+        margin: $margingral*6 0px !important;
     }
     .h3Div{
         font-size: 2.8vw;
+        margin-top: $margingral*4 !important;
+    }
+    .pDiv{
+        margin-bottom: 0px;
     }
 }
 
