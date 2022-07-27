@@ -27,6 +27,15 @@ footer{
     width: $width1;
 }
 .pFooter{
-    margin: 0px $margingral/2;
+    margin: 0px;
     text-align: center;
+}
+.pagLio{
+    padding: $paddinggral;
+    background-color: $color3 !important;
+    text-decoration: none;
+    color: black !important;
+    border: none !important;
+    border-radius: none !important;
+    margin-left: $margingral*3 !important;
 }

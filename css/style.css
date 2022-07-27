@@ -228,8 +228,17 @@ footer {
   width: 100%; }
 
 .pFooter {
-  margin: 0px 0.5%;
+  margin: 0px;
   text-align: center; }
+
+.pagLio {
+  padding: 1%;
+  background-color: #ffe58b !important;
+  text-decoration: none;
+  color: black !important;
+  border: none !important;
+  border-radius: none !important;
+  margin-left: 3% !important; }
 
 /* Peulot del día */
 .padreDivPeulot {
