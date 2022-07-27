@@ -289,6 +289,7 @@ footer {
 .aGrales {
   text-decoration: none;
   -webkit-text-stroke: 1px black;
+  margin: 0px 2%;
   font-size: 3.5vw;
   font-weight: 600;
   color: #69cd68 !important; }
