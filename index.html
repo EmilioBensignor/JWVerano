@@ -5,57 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Javaweb</title>
 </head>
 <body>
     <!-- HEADER -->
     <div class="divH1">
         <a href="index.html"><h1>JAVAWEB</h1></a>
     </div>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Cronogramas</a>
-                    <ul class="dropdown">
-                        <li><a class="a1" href="#">JM</a></li>
-                        <li><a class="a2" href="#">JT</a></li>
-                        <li><a class="a3" href="#">JK</a></li>
-                        <li><a class="a4" href="#">JJ</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Peulot</a>
-                    <ul class="dropdown">
-                        <li><a class="a1" href="#">JM</a></li>
-                        <li><a class="a2" href="#">JT</a></li>
-                        <li><a class="a3" href="#">JK</a></li>
-                        <li><a class="a4" href="#">JJ</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Recursos</a>
-                    <ul class="dropdown">
-                        <li><a class="a1" href="#">JM</a></li>
-                        <li><a class="a2" href="#">JT</a></li>
-                        <li><a class="a3" href="#">JK</a></li>
-                        <li><a class="a4" href="#">JJ</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Extra</a>
-                    <ul class="dropdown">
-                        <li><a class="a1" href="#">JM</a></li>
-                        <li><a class="a2" href="#">JT</a></li>
-                        <li><a class="a3" href="#">JK</a></li>
-                        <li><a class="a4" href="#">JJ</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
     <main>
-        <section>
-            <div>
-                <img src="fotitos/fondito.png" alt="pr">
+        <section id="seleccionar">
+            <div id="tarjetas">
+                <div>
+                    <button id="botonJM" class="tarjetaDeCohadraja">
+                        <img src="./fotitos/jm.png" alt="fotoJM">
+                    </button>
+                    <button id="botonJT" class="tarjetaDeCohadraja">
+                        <img src="./fotitos/jk.png" alt="fotoJK">
+                    </button>
+                </div>
+                <div>
+                    <button id="botonJK" class="tarjetaDeCohadraja">
+                        <img src="./fotitos/jt.png" alt="fotoJT">
+                    </button>
+                    <button id="botonJJ" class="tarjetaDeCohadraja">
+                        <img src="./fotitos/jj.png" alt="fotoJJ">
+                    </button>
+                </div>
             </div>
         </section>
+        <section id="dia">
+            <div>DÍAS</div>
+        </section>
+        <section id="cohadraja">
+            <div>COHADRAJA</div>
+        </section>
+        <section id="java">
+            <div class="divJava">JAVA</div>
+        </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>

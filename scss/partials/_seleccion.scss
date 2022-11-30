@@ -1,0 +1,36 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+#selecionar{
+    @include columna-a-centrar
+}
+
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    div{
+        margin: 0 3%;
+    }
+}
+
+.tarjetaDeCohadraja{
+    @include a-centrar;
+    box-sizing: border-box;
+    margin: 5% 0;
+    img{
+        width: 30vw;
+    }
+}
+
+#java{
+    @include centrar;
+    .divJava{
+        @include a-centrar;
+        border: black solid 3px;
+        width: 60vw;
+        height: 15vw;
+        margin: 5%;
+        background-color: $pal1C;
+    }
+}
+

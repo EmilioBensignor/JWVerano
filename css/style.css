@@ -1,52 +1,36 @@
-@charset "UTF-8";
-/*TÍTULO*/
-.divH1 {
+#selecionar {
   display: flex;
   justify-content: center;
-  background-color: #354F51; }
-  .divH1 a {
-    text-decoration: none; }
+  flex-direction: column;
+  align-items: center; }
 
-h1 {
-  font-size: 4.5vw;
-  margin: 4%;
-  color: black; }
-
-/* NAV */
-nav ul {
+#tarjetas {
   display: flex;
-  justify-content: space-evenly;
-  background-color: #52796F; }
-  nav ul li {
-    font-size: 2vw;
-    margin: 1.5% 0; }
-    nav ul li a {
-      text-decoration: none;
-      color: black; }
-    nav ul li .dropdown {
-      visibility: hidden;
-      opacity: 0;
-      position: absolute;
-      transition: all 0.5s ease;
-      left: 0;
-      background-color: #84A98C;
-      margin-top: 1.5%;
-      width: 100%;
-      height: 10vw;
-      display: flex;
-      justify-content: space-around;
-      align-items: center; }
-  nav ul li:hover > ul, nav ul ul li ul:hover {
-    visibility: visible;
-    opacity: 1; }
-    nav ul li:hover > ul li .a1:hover, nav ul ul li ul:hover li .a1:hover {
-      color: #E56B6F; }
-    nav ul li:hover > ul li .a2:hover, nav ul ul li ul:hover li .a2:hover {
-      color: #6D597A; }
-    nav ul li:hover > ul li .a3:hover, nav ul ul li ul:hover li .a3:hover {
-      color: #EAAC8B; }
-    nav ul li:hover > ul li .a4:hover, nav ul ul li ul:hover li .a4:hover {
-      color: #B56576; }
+  justify-content: center; }
+  #tarjetas div {
+    margin: 0 3%; }
+
+.tarjetaDeCohadraja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 5% 0; }
+  .tarjetaDeCohadraja img {
+    width: 30vw; }
+
+#java {
+  display: flex;
+  justify-content: center; }
+  #java .divJava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 3px;
+    width: 60vw;
+    height: 15vw;
+    margin: 5%;
+    background-color: #84A98C; }
 
 * {
   margin: 0;
@@ -56,5 +40,9 @@ nav ul {
 body {
   background-color: #CAD2C5; }
 
-section div img {
-  width: 100%; }
+.divH1 {
+  display: flex;
+  justify-content: center;
+  margin: 3%; }
+  .divH1 a {
+    text-decoration: none; }
