@@ -32,6 +32,20 @@
     margin: 5%;
     background-color: #84A98C; }
 
+#dia {
+  display: flex;
+  justify-content: center; }
+  #dia section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px; }
+    #dia section div {
+      border: black solid 3px;
+      background-color: #84A98C;
+      width: 5vw;
+      height: 5vw; }
+
 * {
   margin: 0;
   padding: 0;
