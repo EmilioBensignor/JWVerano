@@ -32,6 +32,7 @@ var seccion = document.getElementById("seccion");
 seccion.style.display = 'none'
 
 let cohadraja
+let cronograma
 
 function iniciar() {
     sectionDia.style.display = 'none'
@@ -45,6 +46,7 @@ function diasJM() {
     dia19.style.display = 'none'
     dia20.style.display = 'none'
     cohadraja = 'Maasim'
+    cronograma = './fotitos/cronoJM.png'
 }
 
 function diasJT() {
@@ -54,6 +56,7 @@ function diasJT() {
     dia19.style.display = 'none'
     dia20.style.display = 'none'
     cohadraja = 'Tik'
+    cronograma = './fotitos/cronoJT.png'
 }
 
 function diasJK() {
@@ -76,13 +79,25 @@ function diasJJ() {
     dia26.style.display = 'none'
     dia27.style.display = 'none'
     cohadraja = 'Jalo'
+    cronograma = './fotitos/cronoJJ.png'
 }
 
 function variantes (dia) {
     sectionDia.style.display = 'none'
     sectionCohadraja.style.display = 'flex'
-    nombre.innerHTML = `Javaia ${cohadraja}`
-    crono.innerHTML = `Crono ${cohadraja} - Día ${dia} `
+    if (cohadraja == 'Kava') {
+        if (dia == 18 || dia == 19 || dia == 20) {
+            cronograma = './fotitos/cronoJKcorto.png'
+        } else {
+            cronograma = './fotitos/cronoJKlargo.png'
+        }
+    }
+    nombre.innerHTML = `<h2 class="subtitulo">Javaia ${cohadraja} - Día ${dia}</h2>`
+    crono.innerHTML = `
+    <div class="divImgCrono">
+        <img class="imgCrono" src="${cronograma} " alt="">
+    </div>
+    `
 }
 
 function mostrarOcultar() {

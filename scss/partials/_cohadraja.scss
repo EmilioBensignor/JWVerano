@@ -4,3 +4,19 @@
 #cohadraja{
     @include columna-a-centrar;
 }
+
+.subtitulo{
+    @include centrar;
+    font-size: 4vw;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.divImgCrono{
+    @include centrar;
+    margin-top: 3%;
+}
+
+.imgCrono{
+    width: 95%;
+}
