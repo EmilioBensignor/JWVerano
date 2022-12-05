@@ -3,17 +3,10 @@
 
 #dia{
     display: flex;
-    justify-content: center;
-    section{
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        gap: 10px;
-        div{
-            border: black solid 3px;
-            background-color: $pal1C;
-            width: 5vw;
-            height: 5vw;
-        }
+    justify-content: space-evenly;
+    button{
+        background-color: $pal1C;
+        width: 7vw;
+        height: 7vw;
     }
 }

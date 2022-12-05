@@ -1,0 +1,6 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+#cohadraja{
+    @include columna-a-centrar;
+}

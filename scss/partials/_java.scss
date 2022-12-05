@@ -1,0 +1,6 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+#java {
+    @include columna-a-centrar;
+}
