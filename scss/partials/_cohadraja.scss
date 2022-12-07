@@ -20,3 +20,39 @@
 .imgCrono{
     width: 95%;
 }
+
+.peulaxdia{
+    @include columna-a-centrar;
+    margin: 3% 0;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: $pal1C;
+    padding: 2%;
+}
+
+#items{
+    width: 90vw;
+    margin-top: 2%;
+    @include columna-a-centrar;
+}
+
+.divPeulot{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+    a{
+        text-decoration: none;
+        color: black;
+        margin: 0 1%;
+    }
+}
+
+.divGrales{
+    width: 100%;
+    @include centrar;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
