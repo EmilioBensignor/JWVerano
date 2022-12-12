@@ -20,6 +20,8 @@ const dia27 = document.getElementById('27')
 const sectionCohadraja = document.getElementById('cohadraja')
 const nombre = document.getElementById('nombre')
 const crono = document.getElementById('crono')
+const subtitulo = document.getElementById('h2Peula')
+const listado = document.getElementById('listado')
 
 const sectionJava = document.getElementById('java')
 
@@ -349,6 +351,8 @@ function variantes (dia) {
         <img class="imgCrono" src="${cronograma} " alt="">
     </div>
     `
+    subtitulo.innerHTML = `Info del día Java ${cohadraja} `
+    listado.innerHTML = `<div class="listados"> <a href=>Listados</a> </div>`
 }
 
 function mostrarOcultar() {

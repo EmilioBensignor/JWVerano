@@ -19,16 +19,16 @@ body{
 .divH1{
     display: flex;
     justify-content: center;
-    margin: 3%;
     a{
-        text-decoration: none;
-        h1{
-            color: black;
+        img{
+            width: max-content;
         }
     }
+    margin: 0 0 3% 0;
 }
 
 button{
     background: none;
     outline: none;
+    border: none;
 }

@@ -3,4 +3,11 @@
 
 #java {
     @include columna-a-centrar;
+    box-sizing: border-box;
+    margin: 1% 0;
+    button{
+        img{
+            width: 40vw;
+        }
+    }
 }
