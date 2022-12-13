@@ -17,16 +17,19 @@
   box-sizing: border-box;
   margin: 5% 0; }
   .tarjetaDeCohadraja img {
-    width: 30vw; }
+    width: 32vw; }
 
 #dia {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3%; }
-  #dia button {
-    background-color: #84A98C;
-    width: 7vw;
-    height: 7vw; }
+  justify-content: center;
+  flex-wrap: wrap; }
+  #dia .wrapeando {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%; }
+    #dia .wrapeando button img {
+      width: 20vw; }
 
 #cohadraja {
   display: flex;
@@ -120,7 +123,7 @@ body {
   justify-content: center;
   margin: 0 0 3% 0; }
   .divH1 a img {
-    width: max-content; }
+    width: 100vw; }
 
 button {
   background: none;

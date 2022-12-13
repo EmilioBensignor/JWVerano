@@ -244,7 +244,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <a href="#">Peula 2</a>
-                <a href="#">Laila toc</a>
+                <a href="#">Laila tov</a>
             </div>
             <div class="divGrales">
                 <a href="#">Generales</a>

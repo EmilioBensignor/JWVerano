@@ -3,11 +3,17 @@
 
 #dia{
     display: flex;
-    justify-content: space-evenly;
-    button{
-        background-color: $pal1C;
-        width: 7vw;
-        height: 7vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    .wrapeando{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        button{
+            img{
+                width: 20vw;
+            }
+        }
+        margin-bottom: 3%;
     }
-    margin-bottom: 3%;
 }
