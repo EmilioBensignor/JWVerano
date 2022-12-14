@@ -6,7 +6,6 @@ const botonJavaKava = document.getElementById('botonJK')
 const botonJavaJalo = document.getElementById('botonJJ')
 
 const sectionDia = document.getElementById('dia')
-const dia18 = document.getElementById('18')
 const dia19 = document.getElementById('19')
 const dia20 = document.getElementById('20')
 const dia21 = document.getElementById('21')
@@ -46,7 +45,6 @@ function iniciar() {
 function diasJM() {
     sectionSeleccionar.style.display = 'none'
     sectionDia.style.display = 'flex'
-    dia18.style.display = 'none'
     dia19.style.display = 'none'
     dia20.style.display = 'none'
     cohadraja = 'Maasim'
@@ -56,7 +54,6 @@ function diasJM() {
 function diasJT() {
     sectionSeleccionar.style.display = 'none'
     sectionDia.style.display = 'flex'
-    dia18.style.display = 'none'
     dia19.style.display = 'none'
     dia20.style.display = 'none'
     cohadraja = 'Tik'
@@ -90,51 +87,56 @@ function variantes (dia) {
     sectionDia.style.display = 'none'
     sectionCohadraja.style.display = 'flex'
     if (cohadraja == 'Kava') {
-        if (dia == 18 || dia == 19 || dia == 20) {
+        if (dia == 19 || dia == 20) {
             cronograma = './fotitos/cronoJKcorto.png'
         } else {
             cronograma = './fotitos/cronoJKlargo.png'
         }
         
     }
-    if (dia == 18) {
+    if (dia == 19) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 1 Nitsim</a>
+                <div>
+                    <a href="#">Peula 1 Bala</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 2 Nitsim</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 2 Bala</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
-            </div>
-        `
-        } else {
-            sectionPeula.innerHTML = `
-            <div class="divGrales">
-                <a href="#">Generales</a>
-            </div>
-        `
-        }
-    } else if (dia == 19) {
-        if (cohadraja == 'Kava') {
-            sectionPeula.innerHTML = `
-            <div class="divPeulot">
-                <a href="#">Peula 1 Bala</a>
-                <a href="#">Peula 2 Nitsim</a>
-                <a href="#">Peula 2 Bala</a>
-            </div>
-            <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula Sala de 4</a>
-                <a href="#">General Java</a>
-                <a href="#">Laila tov Sala de 5</a>
+                <div>
+                    <a href="#">Peula Sala de 4</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">General Java</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Sala de 5</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -142,20 +144,33 @@ function variantes (dia) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula de Cierre</a>
+                <div>
+                    <a href="#">Peula de Cierre</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula Sala de 5</a>
-                <a href="#">Peula Sala de 3</a>
+                <div>
+                    <a href="#">Peula Sala de 5</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula Sala de 4</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -163,22 +178,41 @@ function variantes (dia) {
         if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 1 Kofim-Barda</a>
-                <a href="#">Laila tov Iotza</a>
+                <div>
+                    <a href="#">Peula 1 Kofim-Barda</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Iotza</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 1 5to</a>
-                <a href="#">Peula 2 Jaza</a>
-                <a href="#">Laila tov Amor</a>
+                <div>
+                    <a href="#">Peula 1 5to</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 2 Jaza</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Amor</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -186,23 +220,45 @@ function variantes (dia) {
         if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 2 Iotza-Keisa</a>
-                <a href="#">Peula 3 Loja-Jibu</a>
-                <a href="#">Laila tov Barda</a>
+                <div>
+                    <a href="#">Peula 2 Iotza-Keisa</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 3 Loja-Jibu</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Barda</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 3 Amor</a>
-                <a href="#">Peula 4 Ofek</a>
-                <a href="#">Laila tov Kosmim</a>
+                <div>
+                    <a href="#">Peula 3 Amor</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 4 Ofek</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Kosmim</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -213,29 +269,53 @@ function variantes (dia) {
                 <a href="#">Peula 1</a>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 4 Kofim-Loja</a>
-                <a href="#">Peula 5 Barda-Iotza</a>
-                <a href="#">Laila tov Loja</a>
+                <div>
+                    <a href="#">Peula 4 Kofim-Loja</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 5 Barda-Iotza</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Loja</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 5 Kosmim</a>
-                <a href="#">Peula 6 5to</a>
-                <a href="#">Laila tov Ofek</a>
+                <div>
+                    <a href="#">Peula 5 Kosmim</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 6 5to</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Ofek</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -243,30 +323,51 @@ function variantes (dia) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 2</a>
-                <a href="#">Laila tov</a>
+                <div>
+                    <a href="#">Peula 2</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 6 Jibu-Keisa</a>
+                <div>
+                    <a href="#">Peula 6 Jibu-Keisa</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Boker tov 5to</a>
-                <a href="#">Peula 7 6to</a>
+                <div>
+                    <a href="#">Boker tov 5to</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Peula 7 6to</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -274,30 +375,51 @@ function variantes (dia) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 3</a>
-                <a href="#">Momento Java</a>
+                <div>
+                    <a href="#">Peula 3</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Momento Java</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 7 Tercero</a>
+                <div>
+                    <a href="#">Peula 7 Tercero</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 8 5to</a>
-                <a href="#">Laila tov Jaza</a>
+                <div>
+                    <a href="#">Peula 8 5to</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="#">Laila tov Jaza</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -305,28 +427,43 @@ function variantes (dia) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 4</a>
+                <div>
+                    <a href="#">Peula 4</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 8 Cuarto</a>
+                <div>
+                    <a href="#">Peula 8 Cuarto</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 9 7mo</a>
+                <div>
+                    <a href="#">Peula 9 7mo</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
             <div class="divGrales">
-                <a href="#">Generales</a>
+                <div>
+                    <a href="#">Generales</a>
+                </div>
             </div>
         `
         }
@@ -334,13 +471,19 @@ function variantes (dia) {
         if (cohadraja == 'Tik') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula de cierre</a>
+                <div>
+                    <a href="#">Peula de Cierre</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
         `
         } else {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula de cierre</a>
+                <div>
+                    <a href="#">Peula de Cierre</a>
+                    <img class="#" src=# alt="">
+                </div>
             </div>
         `
         }

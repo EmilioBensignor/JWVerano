@@ -6,8 +6,25 @@
     box-sizing: border-box;
     margin: 1% 0;
     button{
-        img{
-            width: 40vw;
+        .tarjetaJava{
+            width: 50vw;
         }
+    }
+}
+
+#extras{
+    display: flex;
+    justify-content: center;
+    div{
+        margin: 0 3%;
+    }
+}
+
+.tarjetaExtra{
+    @include a-centrar;
+    box-sizing: border-box;
+    margin: 5% 0;
+    img{
+        width: 35vw;
     }
 }

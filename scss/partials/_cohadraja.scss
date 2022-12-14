@@ -7,7 +7,7 @@
 
 .subtitulo{
     @include centrar;
-    font-size: 6vw;
+    font-size: 7vw;
     width: 100%;
     margin: 3% 0;
 }
@@ -26,7 +26,7 @@
     margin: 3% 0;
     border: solid 3px black;
     border-radius: 10px;
-    background-color: $pal1C;
+    background-color: $pal3F;
     padding: 2%;
 }
 
@@ -36,36 +36,53 @@
     @include columna-a-centrar;
 }
 
-.listados{
-    margin-top: 10%;
-    a{
-        color: black;
-        text-decoration: none;
-        font-size: 4vw;
-        font-weight: bold;
+#h2Peula{
+    font-size: 5.5vw;
+}
+
+#listado{
+    background-color: $pal3C;
+    border-radius: 7px;
+    padding: 2%;
+    margin-top: 4%;
+    .listados{
+        margin-top: 10%;
+        a{
+            color: black;
+            text-decoration: none;
+            font-size: 4.5vw;
+            font-weight: bold;
+        }
     }
 }
 
 .divPeulot{
+    @include columna-a-centrar;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2%;
+    margin: 5% 0 2% 0;
     a{
         text-decoration: none;
         color: black;
         margin: 0 1%;
-        font-size: 3.5vw;
+        font-size: 4vw;
         margin-top: 2%;
     }
 }
 
 .divGrales{
-    width: 100%;
     @include centrar;
-    a{
-        text-decoration: none;
-        color: black;
-        font-size: 4vw;
+    width: 100%;
+    margin-bottom: 2%;
+    div{
+        background-color: $pal3C;
+        border-radius: 7px;
+        padding: 3%;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 4.5vw;
+            font-weight: bold;
+        }
     }
+    
 }
