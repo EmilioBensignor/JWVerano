@@ -495,7 +495,7 @@ function variantes (dia) {
     </div>
     `
     subtitulo.innerHTML = `Info del día Java ${cohadraja} `
-    listado.innerHTML = `<div class="listados"> <a href=>Listados</a> </div>`
+    listado.innerHTML = `<div class="listados"><a href="">Listados</a></div>`
 }
 
 function mostrarOcultar() {

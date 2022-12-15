@@ -13,7 +13,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, $pal3A, $pal3B, $pal3C);
+    background-color: $pal3A;
 }
 
 .divH1{
@@ -31,4 +31,12 @@ button{
     background: none;
     outline: none;
     border: none;
+}
+
+.divH2Extras{
+    @include centrar;
+}
+
+.h2Extras{
+    font-size: 8.5vw;
 }

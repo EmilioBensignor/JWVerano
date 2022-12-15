@@ -147,7 +147,7 @@
   list-style: none; }
 
 body {
-  background-image: linear-gradient(to bottom, #B5E3F7, #9DDAFC, #59C2FC); }
+  background-color: #B5E3F7; }
 
 .divH1 {
   display: flex;
@@ -160,3 +160,10 @@ button {
   background: none;
   outline: none;
   border: none; }
+
+.divH2Extras {
+  display: flex;
+  justify-content: center; }
+
+.h2Extras {
+  font-size: 8.5vw; }
