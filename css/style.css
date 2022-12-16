@@ -17,7 +17,7 @@
   box-sizing: border-box;
   margin: 5% 0; }
   .tarjetaDeCohadraja img {
-    width: 40vw; }
+    width: 45vw; }
 
 #dia {
   display: flex;
@@ -124,7 +124,7 @@
   box-sizing: border-box;
   margin: 1% 0; }
   #java button .tarjetaJava {
-    width: 50vw; }
+    width: 55vw; }
 
 #extras {
   display: flex;
@@ -139,7 +139,7 @@
   box-sizing: border-box;
   margin: 5% 0; }
   .tarjetaExtra img {
-    width: 35vw; }
+    width: 40vw; }
 
 * {
   margin: 0;
