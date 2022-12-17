@@ -1,0 +1,22 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+.h2Musica{
+    @include centrar;
+    margin-bottom: 4%;
+    h2{
+        font-size: 8vw
+    }
+}
+
+.pMusica{
+    @include centrar;
+    margin-bottom: 10%
+}
+
+.playlists{
+    @include columna-a-centrar;
+    a{
+        margin: 3% 0;
+    }
+}

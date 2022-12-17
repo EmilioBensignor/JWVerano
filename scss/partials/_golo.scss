@@ -4,17 +4,32 @@
 #golosinas{
     @include columna-a-centrar;
     .divGolos{
-        @include fila;
+        @include centrar;
     }
 }
 
 .tarGolo{
     @include columna-a-centrar;
-    width: 30vw;
     border: black solid 3px;
     border-radius: 10px;
     margin: 2%;
+    padding: 3%;
     img{
-        width: 10vw;
+        width: 35vw;
+    }
+    div{
+        @include columna-a-centrar;
+        h3{
+            margin-top: 10%;
+        }
+        button{
+            border: solid black 1px;
+            border-radius: 5px;
+            padding: 2%;
+            margin-top: 5%;
+            width: 30vw;
+            background-color: black;
+            color: white;
+        }
     }
 }

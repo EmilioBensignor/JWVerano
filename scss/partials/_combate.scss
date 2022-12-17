@@ -38,6 +38,7 @@
     font-size: 2.5vh;
     border: solid black 3px;
     background-color: $pal3C;
+    color: black;
 }
 
 .ver-seleccionar{
@@ -70,10 +71,9 @@
 #tarjetas-madrijim, #tarjetas-madrijim-cpu{
     display: flex;
     flex-wrap: wrap;
-    gap: 1px;
     justify-content: space-evenly;
     align-items: center;
-    width: 80vw;
+    width: 95vw;
 }
 #tarjetas-madrijim-cpu>*{
     flex: 1 1 70px;
@@ -103,8 +103,9 @@
         border: solid black 3px;
     }
 }
-.madrijCard:hover{
-    border: 2px solid yellow;
+
+.img:hover{
+    border: 3px solid $pal3B;
 }
 
 
@@ -112,7 +113,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
 }
 
 #info{
@@ -130,7 +130,6 @@
 #select-atacks{
     flex-direction: column;
     align-items: center;
-    height: 90vh;
 }
 
 #ruleta{
@@ -164,8 +163,9 @@
     padding: 2%;
     font-size: 20px;
     border-radius: 15px;
-    border: solid black 3px;
+    border: solid black 2px;
     background-color: $pal3C;
+    color: black;
 }
 .tarjeta-combate{
     display: flex;
@@ -221,6 +221,7 @@
     border-radius: 10px;
     border: solid black 3px;
     background-color: $pal3C;
+    color: black;
 }
 
 #girar-y-premio{
@@ -235,13 +236,14 @@
 
 #premio{
     font-size: 24px;
+    text-align: center;
 }
 
 #lista-premios{
     border: 2px solid black;
     border-radius: 20px;
-    padding: 10px 30px;
-    margin: 10% 0;
+    padding: 4%;
+    margin: 10% 2%;
 }
 #lista-premios h3{
     margin: 0px;

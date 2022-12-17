@@ -323,7 +323,7 @@ function mostrarAtaques() {
 }
 function combate() {
     for (let i = 0; i < ataquesCpu.length; i++) {
-        if (ataquesJugador[i] === ataquesCpu[i].nombre) {
+        if (ataquesJugadorTipo[i] === ataquesCpuTipo[i]) {
             null
         } else if ((ataquesJugadorTipo[i] == "🔥" && ataquesCpuTipo[i] == "🌱") || (ataquesJugadorTipo[i] == "🌊" && ataquesCpuTipo[i] == "🔥") || (ataquesJugadorTipo[i] == "🌱" && ataquesCpuTipo[i] == "🌊")) {
             victoriasJugador++
