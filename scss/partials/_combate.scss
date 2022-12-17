@@ -1,0 +1,270 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btnF{
+    color: red;
+}
+#btnA{
+    color: blue;
+}
+#btnT{
+    color: green;
+}
+#circulo-de-la-muerte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parrafo-explicacion{
+    width: 80vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 5vw;
+}
+
+#iniciar-juego{
+    width: 50vw;
+    height: 5vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    font-size: 2.5vh;
+    border: solid black 3px;
+    background-color: $pal3C;
+}
+
+.ver-seleccionar{
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+#ver-ataques-jugador, #ver-ataques-cpu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.tarjeta-ver-madrij{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tarjeta-ver-madrij h3{
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+#tarjetas-madrijim, #tarjetas-madrijim-cpu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+}
+#tarjetas-madrijim-cpu>*{
+    flex: 1 1 70px;
+}
+.imgMadrij{
+    width: 20vw;
+}
+#ver-madrij img, #ver-madrij-cpu img{
+    width: 30vw;
+}
+#ver-madrij, #ver-madrij-cpu{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 4vw;
+    background-color: $pal3B;
+    margin-bottom: 5%;
+}
+
+.madrijCard{
+    padding: 10px;
+    text-align: center;
+    img{
+        border-radius: 10px;
+        border: solid black 3px;
+    }
+}
+.madrijCard:hover{
+    border: 2px solid yellow;
+}
+
+
+#select-madrij-cpu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img-versus{
+    width: 20vw;
+    
+}
+
+
+#select-atacks{
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+#ruleta{
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    font-size: 40px;
+}
+
+.titulo h2{
+    font-size: 28px;
+    margin: 4% 0;
+}
+
+#select-madrij{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+#boton-select-madrij, #boton-select-madrij-cpu{
+    width: 35vw;
+    height: 6vh;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: solid black 3px;
+    background-color: $pal3C;
+}
+.tarjeta-combate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    width: 31vw;
+}
+.tarjeta-combate p{
+    font-size: 1.8vh;
+    margin: 0;
+}
+
+.img-combate{
+    width: 25vw;
+}
+
+#ataques{
+    width: 50vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+.btnAtaque{
+    font-weight: bold;
+    height: 3.5vh;
+    font-size: 1.4vh;
+    border-radius: 10px;
+    border: black solid 1px;
+    padding: 2%;
+}
+#resultado-combate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.continuar, #girar{
+    width: 50vw;
+    height: 5vh;
+    font-size: 4vw;
+    border-radius: 10px;
+    border: solid black 3px;
+    background-color: $pal3C;
+}
+
+#girar-y-premio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5vh;
+    margin-top: 5%;
+}
+
+
+#premio{
+    font-size: 24px;
+}
+
+#lista-premios{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 10% 0;
+}
+#lista-premios h3{
+    margin: 0px;
+    padding: 5px;
+}
+
+#madrij-jugador, #madrij-cpu{
+    font-size: 7vw;
+}
+#victorias-jugador, #victorias-cpu{
+    font-size: 2vh;
+}
+
+#ataques-jugador, #ataques-cpu{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+#ataques-jugador p, #ataques-cpu p{
+    margin-bottom: 10px;
+}

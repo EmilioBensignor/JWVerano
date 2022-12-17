@@ -99,21 +99,25 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 1 Bala</a>
+                    <a href="https://docs.google.com/document/d/16-7FS8ct2OzeOc349gVvp4Ez2WGFynHwhN7tmQB-dj0/edit?usp=share_link">Peula 1 Nitsim</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 2 Nitsim</a>
+                    <a href="https://docs.google.com/document/d/1dg6zx41ZPuniaqxgU2v1PP1euiz620U6ndcQUlxn5z0/edit?usp=share_link">Peula 1 Bala</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 2 Bala</a>
+                    <a href="https://docs.google.com/document/d/1qBlDIPemYmdwkieDpngM6LeHSA5BCC9c01KxgdFarHE/edit?usp=share_link">Peula 2 Nitsim</a>
+                    <img class="#" src=# alt="">
+                </div>
+                <div>
+                    <a href="https://docs.google.com/document/d/1aGJdipi6YFQx0eFPQK-RP33QsKL6o0mDwgjPMnOy948/edit?usp=share_link">Peula 2 Bala</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -121,11 +125,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula Sala de 4</a>
+                    <a href="https://docs.google.com/document/d/1HPcoPgeRaGxY2cma0QctJck2oiJ2XEZPPA50UxyuCs0/edit?usp=share_link">Peula Sala de 4</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">General Java</a>
+                    <a href="https://docs.google.com/document/d/1OV9tWvy1jdccIzUrhaeJtUScqXlK3v76FITKJu9DbRg/edit?usp=share_link">General Java</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -135,7 +139,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1zGrQVsofSEw8Q2HjMgldNoNhw41Ms2E6-ji31Knioyw/edit">Generales</a>
                 </div>
             </div>
         `
@@ -145,13 +149,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula de Cierre</a>
+                    <a href="https://docs.google.com/document/d/1JDZPA0K9rZF5dZk3biw-QbgABRXKlO9zhhLPhoDMlx4/edit?usp=share_link">Peula de Cierre</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -159,17 +163,17 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula Sala de 5</a>
+                    <a href="https://docs.google.com/document/d/1ZJFeNIoTMT4fJsXf8vrfgxNkfVhZG7MJ0nu5wuMYzoI/edit?usp=share_link">Peula Sala de 3</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula Sala de 4</a>
+                    <a href="https://docs.google.com/document/d/1F3iqn15perXDgEfLml3STeU0LPg-ql-rfdrVZHR4mz8/edit?usp=share_link">Peula Sala de 5</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1zGrQVsofSEw8Q2HjMgldNoNhw41Ms2E6-ji31Knioyw/edit">Generales</a>
                 </div>
             </div>
         `
@@ -179,7 +183,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 1 Kofim-Barda</a>
+                    <a href="https://docs.google.com/document/d/18X8TIY9v7Lv9W0M918xbQSyYFQTr-y8NtAEqC-JSNrU/edit?usp=share_link">Peula 1 Kofim-Barda</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -189,7 +193,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -197,11 +201,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 1 5to</a>
+                    <a href="https://docs.google.com/document/d/1S-9WbErVpCMQ5XQ10qlNczyssDMobgNakHUcdMUg8QA/edit?usp=share_link">Peula 1 5to</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 2 Jaza</a>
+                    <a href="https://docs.google.com/document/d/1caTXsTwcnf0EzWM1YV5nhZF7b8zWdj8zQn-8zR2y50Y/edit?usp=share_link">Peula 2 Jaza</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -211,7 +215,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -221,11 +225,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 2 Iotza-Keisa</a>
+                    <a href="https://docs.google.com/document/d/1LePKKxknVGsVlrY1x9wsfVe4G_Y6LJe936uBYvoUK3k/edit?usp=share_link">Peula 2 Iotza-Keisa</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 3 Loja-Jibu</a>
+                    <a href="https://docs.google.com/document/d/176cU5hmF7pUk6DpuiTWsZVHljDjHnqmE55eBf3BcNCc/edit?usp=share_link">Peula 3 Loja-Jibu</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -235,7 +239,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -243,11 +247,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 3 Amor</a>
+                    <a href="https://docs.google.com/document/d/1CRyxWlDs1Ub9L1mTFAybYs2d6wcfOPFHYDHVRr0xWLw/edit?usp=share_link">Peula 3 Amor</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 4 Ofek</a>
+                    <a href="https://docs.google.com/document/d/1Vpnt1-PQvVKp9yn5i5Pe4qFtM3Hzwx-1Q0hhNdyE_MA/edit?usp=share_link">Peula 4 Ofek</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -257,7 +261,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -266,11 +270,11 @@ function variantes (dia) {
         if (cohadraja == 'Kava') {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
-                <a href="#">Peula 1</a>
+                <a href="https://docs.google.com/document/d/1pS7ifND3-xQkVH2gjM2_FOpzlF7h-2djvgeBLz-NZDQ/edit?usp=share_link">Peula 1</a>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -278,11 +282,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 4 Kofim-Loja</a>
+                    <a href="https://docs.google.com/document/d/1ISGweXSA4ZAdQ6W4rdnFBNgXk9vHVueXJlfnZp477vQ/edit?usp=share_link">Peula 4 Kofim-Loja</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 5 Barda-Iotza</a>
+                    <a href="https://docs.google.com/document/d/10Ro-dfWmsZJuwncHmmjK5JREgzV3jKWVwxKKgWUoXBU/edit?usp=share_link">Peula 5 Barda-Iotza</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -292,7 +296,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -300,11 +304,11 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 5 Kosmim</a>
+                    <a href="https://docs.google.com/document/d/1_hFHd2acmFmC6EYF3x36G_p37HP-Tgec0r_pSZVYvKQ/edit?usp=share_link">Peula 5 Kosmim</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 6 5to</a>
+                    <a href="https://docs.google.com/document/d/1KY-dKlAR4dPP3dAkeJeZfd0anVhLTkyCxRlciIIS5tE/edit?usp=share_link">Peula 6 5to</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -314,7 +318,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -324,7 +328,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 2</a>
+                    <a href="https://docs.google.com/document/d/14CX8rW4bXXSpwRtuD1_LMOfiZ2fNwEV84I5wGnOtfg8/edit?usp=share_link">Peula 2</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -334,7 +338,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -342,13 +346,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 6 Jibu-Keisa</a>
+                    <a href="https://docs.google.com/document/d/1FQXMacPUXfCpli2sJDAIDaJe3_4fK1MeHcEWee1ntz8/edit?usp=share_link">Peula 6 Jibu-Keisa</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -360,13 +364,13 @@ function variantes (dia) {
                     <img class="#" src=# alt="">
                 </div>
                 <div>
-                    <a href="#">Peula 7 6to</a>
+                    <a href="https://docs.google.com/document/d/18F5De7v90SBphtP-IjnVKvuBr-qX22CyED172RQtc1w/edit?usp=share_link">Peula 7 6to</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -376,7 +380,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 3</a>
+                    <a href="https://docs.google.com/document/d/1j7z5UEPVw8lxUl0G4N6h2zA9rxD_D8dzlTcoYv9-ZNM/edit?usp=share_link">Peula 3</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -386,7 +390,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -394,13 +398,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 7 Tercero</a>
+                    <a href="https://docs.google.com/document/d/1S0v0drficZZu8OQqP55pkX8MniBAmun66yC-Y1MjKnU/edit?usp=share_link">Peula 7 Tercero</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -408,7 +412,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 8 5to</a>
+                    <a href="https://docs.google.com/document/d/1MP9MfkvKdqClK-OQ1QOuKTYi8ZDRa3oRMp71aHeP8WE/edit?usp=share_link">Peula 8 5to</a>
                     <img class="#" src=# alt="">
                 </div>
                 <div>
@@ -418,7 +422,7 @@ function variantes (dia) {
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -428,13 +432,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 4</a>
+                    <a href="https://docs.google.com/document/d/1OIqQx5vlsnD3lbsOGwYE4xywnUgOYU-9-feNce4SQ0k/edit?usp=share_link">Peula 4</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1gXRFlmAybBTaW3ivuW_YyEKyKocoKP6KLIRlJlWwmTk/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -442,13 +446,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 8 Cuarto</a>
+                    <a href="https://docs.google.com/document/d/1bsUgQlSUKyEP1Dmj47kfSWIrUwo5GyrBdlZ7Vaezsvg/edit?usp=share_link">Peula 8 Cuarto</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1BsF07qapq0tkxU5ZPYlnPYFJAhCvVodrXzHcT6C7A5c/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -456,13 +460,13 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula 9 7mo</a>
+                    <a href="https://docs.google.com/document/d/1WcS_JqjzKhTMzDUmXFtRmr3tVqExFmrDZNecDolf-y0/edit?usp=share_link">Peula 9 7mo</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
                 <div>
-                    <a href="#">Generales</a>
+                    <a href="https://docs.google.com/document/d/1kN42FA-XCaIlX2yhkTd_oBgcp0AwBJL5gpN3BnF-rWU/edit?usp=sharing">Generales</a>
                 </div>
             </div>
         `
@@ -472,7 +476,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula de Cierre</a>
+                    <a href="https://docs.google.com/document/d/1iDjcyh3F0no5r0GToHVWYw5A2-NGf0Wuw0nQeqdCL7E/edit?usp=share_link">Peula de Cierre</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
@@ -481,7 +485,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <div>
-                    <a href="#">Peula de Cierre</a>
+                    <a href="https://docs.google.com/document/d/1w1nibV9k6Pa_gXZ8WNqK70RXVPgeKmptLlMbHprOpIw/edit?usp=share_link">Peula de Cierre</a>
                     <img class="#" src=# alt="">
                 </div>
             </div>
@@ -491,10 +495,10 @@ function variantes (dia) {
     nombre.innerHTML = `<h2 class="subtitulo">Javaia ${cohadraja} - Día ${dia}</h2>`
     crono.innerHTML = `
     <div class="divImgCrono">
-        <img class="imgCrono" src="${cronograma} " alt="">
+        <img class="imgCrono" src="${cronograma}" alt="">
     </div>
     `
-    subtitulo.innerHTML = `Info del día Java ${cohadraja} `
+    subtitulo.innerHTML = `Info del día Java ${cohadraja}`
     listado.innerHTML = `<div class="listados"><a href="">Listados</a></div>`
 }
 

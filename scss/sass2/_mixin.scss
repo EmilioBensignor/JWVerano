@@ -21,3 +21,13 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin columna {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin fila {
+    display: flex;
+    flex-direction: row;
+}

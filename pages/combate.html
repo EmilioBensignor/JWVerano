@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Javaweb</title>
+</head>
+<body>
+    <div class="divH1">
+        <a href="../index.html">
+            <img src="../fotitos/nave.png" alt="header">
+        </a>
+    </div>
+    <div id="intro">
+        <div class="titulo">
+            <h1>Círculo de la Muerte</h1>
+            <h2>Introducción</h2>
+        </div>
+        <div id="parrafo-explicacion">Bienvenido/a al círculo de la muerte. A continuación vas a poder elegir tu personaje de preferencia de Javaia para combatir contra otra persona. En caso de que ganes, vas a poder girar una ruleta con premios. Te deseo suerte y que gane el/la mejor.<br><br>¿Estás listo/a?</div>
+        <button id="iniciar-juego">Iniciar Juego</button>
+    </div>
+    <div id="circulo-de-la-muerte">
+        <section id="select-madrij">
+            <div class="titulo">
+                <h1>Círculo de la Muerte</h1>
+                <h2>Elegí un/a Madrij/a</h2>
+            </div>
+            <div id="tarjetas-madrijim"></div>
+            <div class="ver-seleccionar">
+                <div id="ver-madrij">Tocá a un/a madrij/a para ver su información</div>
+                <button id="boton-select-madrij">Seleccionar</button>
+            </div>
+            
+        </section>
+        <section id="select-madrij-cpu">
+            <div class="titulo">
+                <h1>Círculo de la Muerte</h1>
+                <h2>Elegí un/a contrincante</h2>
+            </div>
+            <div id="tarjetas-madrijim-cpu"></div>
+            <div class="ver-seleccionar">
+                <div id="ver-madrij-cpu">Tocá a un/a madrij/a para ver su informacion</div>
+                <button id="boton-select-madrij-cpu">Seleccionar</button>
+            </div>
+            
+        </section>
+        <section id="select-atacks">
+            <div class="titulo">
+                <h1>Círculo de la Muerte</h1>
+                <h2>Elegir ataques</h2>
+            </div>
+            <div id="ataques"></div>
+            <div id="info">
+                <div id="tarjeta-madrij-jugador" class="tarjeta-combate">
+                    <div id="madrij-jugador"></div>
+                    <img src="" alt="" id="img-jugador" class="img-combate">
+                    <div id="div-ataques-jugador">
+                        <p>Ataques Jugador:</p>
+                        <ul id="ataques-jugador"></ul>
+                    </div>
+                    <div id="victorias-jugador"></div>
+                </div>
+                <div id="versus">
+                    <img src="../fotitos/versus.png" alt="" id="img-versus">
+                </div>
+                <div id="tarjeta-madrij-cpu" class="tarjeta-combate">
+                    <div id="madrij-cpu"></div>
+                    <img src="" alt="" id="img-cpu" class="img-combate">
+                    <div id="div-ataques-cpu">
+                        <p>Ataques CPU:</p>
+                        <ul id="ataques-cpu"></ul>
+                    </div>
+                    <div id="victorias-cpu"></div>
+                </div>
+            </div>
+            <div id="resultado-combate">
+                <button class="continuar"></button>
+            </div>
+        </section>
+        <section id="ruleta">
+            <div class="titulo">
+                <h1>Círculo de la Muerte</h1>
+                <h2>Ruleta de Premios</h2>
+            </div>
+            <div id="girar-y-premio">
+                <button id="girar">Apretá para ganar</button>
+                <div id="premio">Esperando premio...</div>
+            </div>
+            <ol id="lista-premios"><h3>Lista de Premios:</h3> </ol>
+        </section>
+    </div>
+    <script src="../js/combate.js"></script>
+</body>
+</html>

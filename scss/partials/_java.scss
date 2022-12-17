@@ -4,12 +4,16 @@
 #java {
     @include columna-a-centrar;
     box-sizing: border-box;
-    margin: 1% 0;
+    margin: 2% 0;
     button{
         .tarjetaJava{
             width: 55vw;
         }
     }
+}
+
+#seccion{
+    margin-top: 2%;
 }
 
 #extras{
