@@ -1,0 +1,48 @@
+@import "./sass2/mixin";
+@import "./variables/variables";
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90vw;
+    margin-left: 8%;
+    div{
+        margin-bottom: 5%;
+    }
+}
+
+.botonEnviar{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin-top: 3%;
+}
+
+#enviar{
+    border: solid black 2px;
+    border-radius: 3px;
+    padding: 1%;
+    background-color: $pal3C;
+}
+
+#diVos{
+    @include columna-a-centrar;
+}
+
+#foto{
+    margin: 10% 0;
+}
+
+#moti{
+    margin: 10% 0;
+}
+
+#voucher{
+    margin-top: 5%;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 2%;
+    background-color: $pal3C;
+}

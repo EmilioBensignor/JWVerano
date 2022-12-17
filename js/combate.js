@@ -25,6 +25,10 @@ const divVerMadrijCpu = document.getElementById('ver-madrij-cpu')
 const divIntroduccion = document.getElementById('intro')
 const divCirculoDeLaMuerte = document.getElementById('circulo-de-la-muerte')
 const botonIniciarJuego = document.getElementById('iniciar-juego')
+
+let indexVictoriasJugador = []
+let indexVictoriasCpu = []
+
 const ataquesMadrijim = [
     [
         {tipo:'🔥',texto:'Proactividad',id:'btnF'},
@@ -296,6 +300,7 @@ function secuenciaAtaque() {
 function randomNumberInRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
+
 function ataquesAleatoriosCpu() {
     let copiaAtaques = [...madrijCpuObjeto.ataques]
     while (ataquesCpu.length < 5) {
@@ -304,35 +309,49 @@ function ataquesAleatoriosCpu() {
         ataquesCpuTipo.push(copiaAtaques[aleatorio].tipo)
         removeItemOnce(copiaAtaques, aleatorio)
     }
-    mostrarAtaques()
     combate()
+    mostrarAtaques()
 }
+
 function removeItemOnce(arr, index) {
     if (index > -1) {
         arr.splice(index, 1);
     }
     return arr;
 }
+
 function mostrarAtaques() {
-    ataquesJugador.forEach((ataque) => {
-        listaAtaquesJugador.innerHTML += `<li>${ataque}</li>`
+    for (let i = 0; i < ataquesJugador.length; i++) {
+        listaAtaquesJugador.innerHTML += `<li id='ataqueJ${i}'>${ataquesJugador[i]}</li>`
+    }
+    for (let i = 0; i < ataquesCpu.length; i++) {
+        listaAtaquesCpu.innerHTML += `<li id='ataqueC${i}'>${ataquesCpu[i]}</li>`
+    }
+    indexVictoriasJugador.forEach((w)=>{
+        const itemWin = document.getElementById(`ataqueJ${w}`)
+        itemWin.style.color = 'green'
     })
-    ataquesCpu.forEach((ataque) => {
-        listaAtaquesCpu.innerHTML += `<li>${ataque}</li>`
+    indexVictoriasCpu.forEach((w)=>{
+        const itemWin = document.getElementById(`ataqueC${w}`)
+        itemWin.style.color = 'green'
     })
 }
+
 function combate() {
     for (let i = 0; i < ataquesCpu.length; i++) {
         if (ataquesJugadorTipo[i] === ataquesCpuTipo[i]) {
             null
         } else if ((ataquesJugadorTipo[i] == "🔥" && ataquesCpuTipo[i] == "🌱") || (ataquesJugadorTipo[i] == "🌊" && ataquesCpuTipo[i] == "🔥") || (ataquesJugadorTipo[i] == "🌱" && ataquesCpuTipo[i] == "🌊")) {
             victoriasJugador++
+            indexVictoriasJugador.push(i)
         } else {
             victoriasCpu++
+            indexVictoriasCpu.push(i)
         }
     }
     resultadoFinal()
 }
+
 function resultadoFinal() {
     if (victoriasCpu === victoriasJugador) {
         mensajeFinalCombate('Empate');

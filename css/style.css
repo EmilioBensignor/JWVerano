@@ -439,6 +439,47 @@
   .playlists a {
     margin: 3% 0; }
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90vw;
+  margin-left: 8%; }
+  form div {
+    margin-bottom: 5%; }
+
+.botonEnviar {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin-top: 3%; }
+
+#enviar {
+  border: solid black 2px;
+  border-radius: 3px;
+  padding: 1%;
+  background-color: #59C2FC; }
+
+#diVos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+#foto {
+  margin: 10% 0; }
+
+#moti {
+  margin: 10% 0; }
+
+#voucher {
+  margin-top: 5%;
+  border: solid black 2px;
+  border-radius: 5px;
+  padding: 2%;
+  background-color: #59C2FC; }
+
 * {
   margin: 0;
   padding: 0;
