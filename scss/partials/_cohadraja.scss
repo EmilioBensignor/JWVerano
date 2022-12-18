@@ -37,7 +37,8 @@
 }
 
 #h2Peula{
-    font-size: 5.5vw;
+    font-size: 6.5vw;
+    margin: 2% 0;
 }
 
 #listado{
@@ -50,7 +51,7 @@
         a{
             color: black;
             text-decoration: none;
-            font-size: 4.5vw;
+            font-size: 5vw;
             font-weight: bold;
         }
     }
@@ -64,7 +65,7 @@
         text-decoration: none;
         color: black;
         margin: 0 1%;
-        font-size: 4vw;
+        font-size: vw;
         margin-top: 2%;
     }
 }
@@ -80,9 +81,22 @@
         a{
             text-decoration: none;
             color: black;
-            font-size: 4.5vw;
+            font-size: 5vw;
             font-weight: bold;
         }
     }
     
+}
+
+.divPeulot{
+    div{
+        a{
+            font-size: 5.5vw;
+            margin: 3% 0;
+        }
+        @include columna-a-centrar;
+        img{
+            width: 80vw;
+        }
+    }
 }
