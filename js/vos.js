@@ -15,17 +15,17 @@ class User{
     }
 }
 const lara = new User('Lara','12345')
-const tommy = new User('Tommy','12345')
-const mags = new User('Mags','12345')
-const perucha = new User('Perucha','12345')
-const guido = new User('Guido','12345')
-const pepe = new User('Pepe','12345')
-const kantor = new User('Kantor','12345')
-const solcha = new User('Solcha','12345')
-const lula = new User('Lula','12345')
-const wile = new User('Wile','12345')
-const maga = new User('Maga','12345')
-const emi = new User('Emi','12345')
+const tommy = new User('Tommy','bernabeu')
+const mags = new User('Mags','drajutop')
+const perucha = new User('Perucha','perucha')
+const guido = new User('Guido','quesoyhuevo')
+const pepe = new User('Pepe','123456abc')
+const kantor = new User('Kantor','jotate')
+const solcha = new User('Solcha','amordim')
+const lula = new User('Lula','2160')
+const wile = new User('Wile','GULMAAAN')
+const maga = new User('Maga','lojamim')
+const emi = new User('Emi','emi')
 
 userList.push(lara,tommy,mags,perucha,guido,pepe,kantor,solcha,lula,wile,maga,emi)
 

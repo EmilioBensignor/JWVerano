@@ -18,5 +18,8 @@
     @include columna-a-centrar;
     a{
         margin: 3% 0;
+        img{
+            width: 90vw;
+        }
     }
 }

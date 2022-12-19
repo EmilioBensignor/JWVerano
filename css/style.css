@@ -455,6 +455,8 @@
   align-items: center; }
   .playlists a {
     margin: 3% 0; }
+    .playlists a img {
+      width: 90vw; }
 
 form {
   display: flex;
@@ -465,6 +467,10 @@ form {
   margin-left: 8%; }
   form div {
     margin-bottom: 5%; }
+
+#para-vos {
+  display: flex;
+  justify-content: center; }
 
 .botonEnviar {
   display: flex;
