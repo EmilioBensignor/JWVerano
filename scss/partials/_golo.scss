@@ -1,35 +1,48 @@
 @import "./sass2/mixin";
 @import "./variables/variables";
 
-#golosinas{
-    @include columna-a-centrar;
-    .divGolos{
-        @include centrar;
+#ver-golosinas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+    h4{
+        margin-bottom: 5%;
+    }
+    img{
+        width: 20vw;
     }
 }
 
-.tarGolo{
+.agregar{
+    margin: 2% 0;
+}
+
+.sCarrito{
     @include columna-a-centrar;
-    border: black solid 3px;
-    border-radius: 10px;
-    margin: 2%;
-    padding: 3%;
-    img{
-        width: 35vw;
+    margin-left: 5%;
+    h3{
+        font-size: 6vw;
+        margin-bottom: 3%;
     }
-    div{
-        @include columna-a-centrar;
-        h3{
-            margin-top: 10%;
-        }
-        button{
-            border: solid black 1px;
-            border-radius: 5px;
-            padding: 2%;
-            margin-top: 5%;
-            width: 30vw;
-            background-color: black;
-            color: white;
-        }
-    }
+}
+
+#finalizar-pedido{
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 3% 0 5% 0;
+    background-color: $pal3C;
+    width: 30vw;
+}
+
+#link-WA{
+    color: black;
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 5% 0;
+    background-color: $pal3C;
 }

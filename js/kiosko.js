@@ -21,11 +21,10 @@ const palitosDeLaSelva = new Golosina('Palitos de la Selva','palitosDeLaSelva', 
 const billikenYogurt = new Golosina('Billiken Yogurt','billikenYogurt', '../fotitos/billiken.png')
 const sugusMax = new Golosina('Sugus Max','sugusMax', '../fotitos/max.png')
 const caramelosDeMiel = new Golosina('Caramelos de Miel','caramelosDeMiel', '../fotitos/miel.png')
-const chamuyo = new Golosina('Chamuyo','chamuyo', '../fotitos/max.png')
 
 function iniciar() {
     aLinkWA.style.display ='none'
-    golosinas.push(arcor, palitosDeLaSelva, billikenYogurt, sugusMax, caramelosDeMiel, chamuyo)
+    golosinas.push(arcor, palitosDeLaSelva, billikenYogurt, sugusMax, caramelosDeMiel)
 
     golosinas.forEach((g) => {
         sectionVerGolosinas.innerHTML += `
@@ -38,7 +37,7 @@ function iniciar() {
     mostrarCarrito()
     const botonesAgregar = document.querySelectorAll('.agregar')
     botonesAgregar.forEach((boton)=>{
-        boton.addEventListener('click', ()=>{
+        boton.addEventListener('touchend', ()=>{
             const golosinaAgregar = boton.innerText
             golosinas.forEach((g)=>{
                 if (g.nombre == golosinaAgregar) {
@@ -77,6 +76,7 @@ function actualizarCarrito(id){
     `
 }
 function crearEnlaceWA(){
+    finalizarPedido.style.display = 'none'
     golosinas.forEach((g)=>{
         if (g.cantidad>0) {
             carrito.push(g)

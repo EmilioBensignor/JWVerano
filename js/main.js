@@ -100,19 +100,19 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/16-7FS8ct2OzeOc349gVvp4Ez2WGFynHwhN7tmQB-dj0/edit?usp=share_link">Peula 1 Nitsim</a>
-                    <img class="#" src="../fotitos/mJKn1.png" alt="">
+                    <img class="#" src="./fotitos/mJKn1.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1dg6zx41ZPuniaqxgU2v1PP1euiz620U6ndcQUlxn5z0/edit?usp=share_link">Peula 1 Bala</a>
-                    <img class="#" src="../fotitos/mJKb1.png" alt="">
+                    <img class="#" src="./fotitos/mJKb1.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1qBlDIPemYmdwkieDpngM6LeHSA5BCC9c01KxgdFarHE/edit?usp=share_link">Peula 2 Nitsim</a>
-                    <img class="#" src="../fotitos/mJKn2.png" alt="">
+                    <img class="#" src="./fotitos/mJKn2.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1aGJdipi6YFQx0eFPQK-RP33QsKL6o0mDwgjPMnOy948/edit?usp=share_link">Peula 2 Bala</a>
-                    <img class="#" src="../fotitos/mJKb2.png" alt="">
+                    <img class="#" src="./fotitos/mJKb2.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -126,11 +126,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1HPcoPgeRaGxY2cma0QctJck2oiJ2XEZPPA50UxyuCs0/edit?usp=share_link">Peula Sala de 4</a>
-                    <img class="#" src="../fotitos/mJJs4.png" alt="">
+                    <img class="#" src="./fotitos/mJJs4.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1OV9tWvy1jdccIzUrhaeJtUScqXlK3v76FITKJu9DbRg/edit?usp=share_link">General Java</a>
-                    <img class="#" src="../fotitos/mJJg.png" alt="">
+                    <img class="#" src="./fotitos/mJJg.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Sala de 5</a>
@@ -150,7 +150,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1JDZPA0K9rZF5dZk3biw-QbgABRXKlO9zhhLPhoDMlx4/edit?usp=share_link">Peula de Cierre</a>
-                    <img class="#" src="../fotitos/mJKc1.png" alt="">
+                    <img class="#" src="./fotitos/mJKc1.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -164,11 +164,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1ZJFeNIoTMT4fJsXf8vrfgxNkfVhZG7MJ0nu5wuMYzoI/edit?usp=share_link">Peula Sala de 3</a>
-                    <img class="#" src="../fotitos/mJJs3.png" alt="">
+                    <img class="#" src="./fotitos/mJJs3.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1F3iqn15perXDgEfLml3STeU0LPg-ql-rfdrVZHR4mz8/edit?usp=share_link">Peula Sala de 5</a>
-                    <img class="#" src="../fotitos/mJJs5.png" alt="">
+                    <img class="#" src="./fotitos/mJJs5.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -184,7 +184,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/18X8TIY9v7Lv9W0M918xbQSyYFQTr-y8NtAEqC-JSNrU/edit?usp=share_link">Peula 1 Kofim-Barda</a>
-                    <img class="#" src="../fotitos/mJT1.png" alt="">
+                    <img class="#" src="./fotitos/mJT1.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Iotza</a>
@@ -202,11 +202,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1S-9WbErVpCMQ5XQ10qlNczyssDMobgNakHUcdMUg8QA/edit?usp=share_link">Peula 1 5to</a>
-                    <img class="#" src="../fotitos/mJM1.png" alt="">
+                    <img class="#" src="./fotitos/mJM1.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1caTXsTwcnf0EzWM1YV5nhZF7b8zWdj8zQn-8zR2y50Y/edit?usp=share_link">Peula 2 Jaza</a>
-                    <img class="#" src="../fotitos/mJM2.png" alt="">
+                    <img class="#" src="./fotitos/mJM2.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Amor</a>
@@ -226,11 +226,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1LePKKxknVGsVlrY1x9wsfVe4G_Y6LJe936uBYvoUK3k/edit?usp=share_link">Peula 2 Iotza-Keisa</a>
-                    <img class="#" src="../fotitos/mJT2.png" alt="">
+                    <img class="#" src="./fotitos/mJT2.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/176cU5hmF7pUk6DpuiTWsZVHljDjHnqmE55eBf3BcNCc/edit?usp=share_link">Peula 3 Loja-Jibu</a>
-                    <img class="#" src="../fotitos/mJT3.png" alt="">
+                    <img class="#" src="./fotitos/mJT3.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Barda</a>
@@ -248,11 +248,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1CRyxWlDs1Ub9L1mTFAybYs2d6wcfOPFHYDHVRr0xWLw/edit?usp=share_link">Peula 3 Amor</a>
-                    <img class="#" src="../fotitos/mJM3.png" alt="">
+                    <img class="#" src="./fotitos/mJM3.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1Vpnt1-PQvVKp9yn5i5Pe4qFtM3Hzwx-1Q0hhNdyE_MA/edit?usp=share_link">Peula 4 Ofek</a>
-                    <img class="#" src="../fotitos/mJM4.png" alt="">
+                    <img class="#" src="./fotitos/mJM4.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Kosmim</a>
@@ -271,7 +271,7 @@ function variantes (dia) {
             sectionPeula.innerHTML = `
             <div class="divPeulot">
                 <a href="https://docs.google.com/document/d/1pS7ifND3-xQkVH2gjM2_FOpzlF7h-2djvgeBLz-NZDQ/edit?usp=share_link">Peula 1</a>
-                <img class="#" src="../fotitos/mJKs1.png" alt="">
+                <img class="#" src="./fotitos/mJKs1.png" alt="">
             </div>
             <div class="divGrales">
                 <div>
@@ -284,11 +284,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1ISGweXSA4ZAdQ6W4rdnFBNgXk9vHVueXJlfnZp477vQ/edit?usp=share_link">Peula 4 Kofim-Loja</a>
-                    <img class="#" src="../fotitos/mJT4.png" alt="">
+                    <img class="#" src="./fotitos/mJT4.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/10Ro-dfWmsZJuwncHmmjK5JREgzV3jKWVwxKKgWUoXBU/edit?usp=share_link">Peula 5 Barda-Iotza</a>
-                    <img class="#" src="../fotitos/mJT5.png" alt="">
+                    <img class="#" src="./fotitos/mJT5.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Loja</a>
@@ -306,11 +306,11 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1_hFHd2acmFmC6EYF3x36G_p37HP-Tgec0r_pSZVYvKQ/edit?usp=share_link">Peula 5 Kosmim</a>
-                    <img class="#" src="../fotitos/mJM5.png" alt="">
+                    <img class="#" src="./fotitos/mJM5.png" alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/1KY-dKlAR4dPP3dAkeJeZfd0anVhLTkyCxRlciIIS5tE/edit?usp=share_link">Peula 6 5to</a>
-                    <img class="#" src="../fotitos/mJM6.png" alt="">
+                    <img class="#" src="./fotitos/mJM6.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Ofek</a>
@@ -330,7 +330,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/14CX8rW4bXXSpwRtuD1_LMOfiZ2fNwEV84I5wGnOtfg8/edit?usp=share_link">Peula 2</a>
-                    <img class="#" src="../fotitos/mJKs2.png" alt="">
+                    <img class="#" src="./fotitos/mJKs2.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov</a>
@@ -348,7 +348,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1FQXMacPUXfCpli2sJDAIDaJe3_4fK1MeHcEWee1ntz8/edit?usp=share_link">Peula 6 Jibu-Keisa</a>
-                    <img class="#" src="../fotitos/mJT6.png" alt="">
+                    <img class="#" src="./fotitos/mJT6.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -366,7 +366,7 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/18F5De7v90SBphtP-IjnVKvuBr-qX22CyED172RQtc1w/edit?usp=share_link">Peula 7 6to</a>
-                    <img class="#" src="../fotitos/mJM7.png" alt="">
+                    <img class="#" src="./fotitos/mJM7.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -382,7 +382,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1j7z5UEPVw8lxUl0G4N6h2zA9rxD_D8dzlTcoYv9-ZNM/edit?usp=share_link">Peula 3</a>
-                    <img class="#" src="../fotitos/mJKs3.png" alt="">
+                    <img class="#" src="./fotitos/mJKs3.png" alt="">
                 </div>
                 <div>
                     <a href="#">Momento Java</a>
@@ -400,7 +400,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1S0v0drficZZu8OQqP55pkX8MniBAmun66yC-Y1MjKnU/edit?usp=share_link">Peula 7 Tercero</a>
-                    <img class="#" src="../fotitos/mJT7.png" alt="">
+                    <img class="#" src="./fotitos/mJT7.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -414,7 +414,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1MP9MfkvKdqClK-OQ1QOuKTYi8ZDRa3oRMp71aHeP8WE/edit?usp=share_link">Peula 8 5to</a>
-                    <img class="#" src="../fotitos/mJM8.png" alt="">
+                    <img class="#" src="./fotitos/mJM8.png" alt="">
                 </div>
                 <div>
                     <a href="#">Laila tov Jaza</a>
@@ -434,7 +434,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1OIqQx5vlsnD3lbsOGwYE4xywnUgOYU-9-feNce4SQ0k/edit?usp=share_link">Peula 4</a>
-                    <img class="#" src="../fotitos/mJKs4.png" alt="">
+                    <img class="#" src="./fotitos/mJKs4.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -448,7 +448,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1bsUgQlSUKyEP1Dmj47kfSWIrUwo5GyrBdlZ7Vaezsvg/edit?usp=share_link">Peula 8 Cuarto</a>
-                    <img class="#" src="../fotitos/mJT7.png" alt="">
+                    <img class="#" src="./fotitos/mJT7.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -462,7 +462,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1WcS_JqjzKhTMzDUmXFtRmr3tVqExFmrDZNecDolf-y0/edit?usp=share_link">Peula 9 7mo</a>
-                    <img class="#" src="../fotitos/mJM9.png" alt="">
+                    <img class="#" src="./fotitos/mJM9.png" alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -486,7 +486,7 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="https://docs.google.com/document/d/1w1nibV9k6Pa_gXZ8WNqK70RXVPgeKmptLlMbHprOpIw/edit?usp=share_link">Peula de Cierre</a>
-                    <img class="#" src="../fotitos/mJM10.png" alt="">
+                    <img class="#" src="./fotitos/mJM10.png" alt="">
                 </div>
             </div>
         `
