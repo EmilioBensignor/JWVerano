@@ -134,7 +134,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Sala de 5</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -188,7 +187,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Iotza</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -210,7 +208,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Amor</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -234,7 +231,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Barda</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -256,7 +252,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Kosmim</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -292,7 +287,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Loja</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -314,7 +308,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Ofek</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -334,7 +327,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
@@ -362,7 +354,6 @@ function variantes (dia) {
             <div class="divPeulot">
                 <div>
                     <a href="#">Boker tov 5to</a>
-                    <img class="#" src=# alt="">
                 </div>
                 <div>
                     <a href="https://docs.google.com/document/d/18F5De7v90SBphtP-IjnVKvuBr-qX22CyED172RQtc1w/edit?usp=share_link">Peula 7 6to</a>
@@ -418,7 +409,6 @@ function variantes (dia) {
                 </div>
                 <div>
                     <a href="#">Laila tov Jaza</a>
-                    <img class="#" src=# alt="">
                 </div>
             </div>
             <div class="divGrales">
