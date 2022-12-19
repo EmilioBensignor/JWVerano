@@ -28,7 +28,7 @@ function iniciar() {
 
     golosinas.forEach((g) => {
         sectionVerGolosinas.innerHTML += `
-        <button class='agregar'>
+        <button class='agregar' style='border: '1px solid black''>
             <h4>${g.nombre}</h4>
             <img src='${g.img}' class='img-golosina'>
         </button>
