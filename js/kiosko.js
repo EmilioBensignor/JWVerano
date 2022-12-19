@@ -37,7 +37,7 @@ function iniciar() {
     mostrarCarrito()
     const botonesAgregar = document.querySelectorAll('.agregar')
     botonesAgregar.forEach((boton)=>{
-        boton.addEventListener('click', ()=>{
+        boton.addEventListener('touchstart', ()=>{
             const golosinaAgregar = boton.innerText
             golosinas.forEach((g)=>{
                 if (g.nombre == golosinaAgregar) {

@@ -35,20 +35,26 @@ form{
 
 #diVos{
     @include columna-a-centrar;
+    #foto{
+        img{
+            width: 90vw;
+        }
+    }
+    margin-bottom: 5%;
 }
 
 #foto{
     margin: 10% 0;
 }
 
-#moti{
-    margin: 10% 0;
-}
-
-#voucher{
-    margin-top: 5%;
-    border: solid black 2px;
-    border-radius: 5px;
-    padding: 2%;
-    background-color: $pal3C;
+#explicacion{
+    @include columna-a-centrar;
+    text-align: center;
+    p{
+        border: solid black 3px;
+        border-radius: 10px;
+        width: 80vw;
+        padding: 2%;
+        background-color: $pal3B;
+    }
 }

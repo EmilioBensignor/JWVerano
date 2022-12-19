@@ -1,31 +1,30 @@
 const form = document.getElementById('log-in-form')
 const divParaVos = document.getElementById('para-vos')
 const dropDownUser = document.getElementById('user')
+const intro = document.getElementById('explicacion')
 
 let userList = []
 let userObject
 
 class User{
-    constructor(nombre, pass, img = null, moti = null, voucher = null){
+    constructor(nombre, pass, img){
         this.nombre = nombre
         this.pass = pass
         this.img = img
-        this.moti = moti
-        this.voucher = voucher
     }
 }
-const lara = new User('Lara','12345')
-const tommy = new User('Tommy','bernabeu')
-const mags = new User('Mags','drajutop')
-const perucha = new User('Perucha','perucha')
-const guido = new User('Guido','quesoyhuevo')
-const pepe = new User('Pepe','123456abc')
-const kantor = new User('Kantor','jotate')
-const solcha = new User('Solcha','amordim')
-const lula = new User('Lula','2160')
-const wile = new User('Wile','GULMAAAN')
-const maga = new User('Maga','lojamim')
-const emi = new User('Emi','emi')
+const lara = new User('Lara','simanim2017', '../fotitos/3.png')
+const tommy = new User('Tommy','bernabeu', '../fotitos/12.png')
+const mags = new User('Mags','drajutop', '../fotitos/10.png')
+const perucha = new User('Perucha','perucha', '../fotitos/5.png')
+const guido = new User('Guido','quesoyhuevo', '../fotitos/4.png')
+const pepe = new User('Pepe','123456abc', '../fotitos/7.png')
+const kantor = new User('Kantor','jotate', '../fotitos/6.png')
+const solcha = new User('Solcha','amordim', '../fotitos/2.png')
+const lula = new User('Lula','2160', '../fotitos/8.png')
+const wile = new User('Wile','GULMAAAN', '../fotitos/9.png')
+const maga = new User('Maga','lojamim', '../fotitos/11.png')
+const emi = new User('Emi','emi', '../fotitos/1.png')
 
 userList.push(lara,tommy,mags,perucha,guido,pepe,kantor,solcha,lula,wile,maga,emi)
 
@@ -54,6 +53,7 @@ function checkPass(){
                 userObject = userList[i]
                 divParaVos.style.display = 'flex'
                 form.style.display = 'none'
+                intro.style.display = 'none'
                 paraVos()
             }else{
                 alert('Contraseña Incorrecta');
@@ -66,18 +66,10 @@ function paraVos(){
     divParaVos.innerHTML = `
         <div id="diVos">
             <div id='foto'>
-                <img src='${userObject.img}' alt='Foto ${userObject.nombre}'>
-            </div>
-            <div id='moti'>
-                <img src='${userObject.moti}' alt='Motivacional ${userObject.nombre}'>
-            </div>
-            <div id='voucher'>
-                <button id='boton-mostrar-voucher'>Ver Voucher</button>
+                <img src='${userObject.img}' alt='${userObject.nombre}'>
             </div>
         </div>
     `
-    const botonMostrarVoucher = document.getElementById('boton-mostrar-voucher')
-    botonMostrarVoucher.addEventListener('click', mostrarVoucher)
 }
 
 function mostrarVoucher(){
