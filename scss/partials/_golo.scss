@@ -9,6 +9,7 @@
     margin: 5% 0;
     h4{
         margin-bottom: 5%;
+        color: black;
     }
     img{
         width: 20vw;
@@ -21,7 +22,6 @@
 
 .sCarrito{
     @include columna-a-centrar;
-    margin-left: 5%;
     h3{
         font-size: 6vw;
         margin-bottom: 3%;
