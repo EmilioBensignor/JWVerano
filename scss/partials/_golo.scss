@@ -16,6 +16,15 @@
     }
 }
 
+.goloIntro{
+    @include columna-a-centrar;
+    margin-top: 3%;
+    p{
+        width: 90vw;
+        text-align: center;
+    }
+}
+
 .agregar{
     margin: 2% 0;
 }

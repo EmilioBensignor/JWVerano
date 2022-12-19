@@ -168,6 +168,16 @@
   #ver-golosinas img {
     width: 20vw; }
 
+.goloIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%; }
+  .goloIntro p {
+    width: 90vw;
+    text-align: center; }
+
 .agregar {
   margin: 2% 0; }
 
